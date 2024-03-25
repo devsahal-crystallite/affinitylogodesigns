@@ -1,0 +1,106 @@
+/*===================*/
+/*Popup New Form Css */
+/*===================*/
+#squarespaceModal{}
+#squarespaceModal .modal-header {
+    min-height: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+#squarespaceModal button.close {
+    padding: 0;
+    cursor: pointer;
+    background: #d93939;
+    border: 0;
+    -webkit-appearance: none;
+    opacity: 9;
+    padding: 3px 10px 6px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#squarespaceModal .modal-content {
+    background: url(../images/popup-bg01.png) no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 40px 0 0;
+}
+.form_content{}
+.form_content h4{
+    color: #474747;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+}
+.form_content h3{
+    margin: 0 0 4px 0;
+    color: #474747;
+    font-weight: 700;
+    font-size: 28px;
+}
+.form_content h3 span{
+    font-weight: 400;
+}
+.form_content h2{
+    margin: 0 0 0px 0;
+    color: #f49335;
+    font-weight: 700;
+    font-size: 36px;
+}
+.form_content h1{
+    margin: 0 0 5px 0;
+    color: #474747;
+    font-size: 38px;
+    font-weight: 400;
+}
+.form_content p{
+    color: #474747;
+}
+#squarespaceModal form{
+    margin: 20px 0 0 0;
+}
+#squarespaceModal form input{
+    width: 300px;
+}
+#squarespaceModal form input[type="email"] {}
+#squarespaceModal form input[type="tel"] {}
+#squarespaceModal form button[type="submit"] {
+    background: #04cd63;
+    color: #fff;
+    font-size: 18px;
+    width: 300px;
+    border: 0;
+    font-weight: 700;
+}
+#squarespaceModal form strong{
+    color: #f49335;
+    text-transform: uppercase;
+    margin: 5px 0 0 0;
+    display: block;
+}
+#squarespaceModal form strong i{
+    font-style: normal;
+    line-height: 0;
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    top: 8px;
+}
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
