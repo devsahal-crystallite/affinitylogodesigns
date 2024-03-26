@@ -2,7 +2,10 @@
 @media(max-width:1380px) {
 
 .banner{ padding: 110px 0 110px 0; }
-.main-form .tab{ width: 75%; }
+.main-form .tab {
+  width: 100%;
+  flex: 1 1 48%;
+}
 
 }
 
